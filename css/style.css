@@ -1,0 +1,238 @@
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-size: 1.8rem;
+  line-height: 1;
+  font-weight: 400;
+  color: #fff;
+  font-family: Roboto;
+  letter-spacing: 0.05em;
+}
+
+[class*="-container"] {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+/* ===============TOP HEADER============ */
+
+.top-header {
+  background-color: #c8a35f;
+}
+
+.top-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-header-languages {
+  display: flex;
+  gap: 1rem;
+}
+
+.top-header-languages-text {
+  display: flex;
+  padding: 1.6rem 0;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  opacity: 0.5;
+}
+
+.active {
+  opacity: 1;
+}
+
+.top-header-contacts-text {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+}
+
+/* MAIN HEADER */
+
+.main-header {
+  background-color: #2f343a;
+}
+
+.main-header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-header-wrapper {
+  display: flex;
+  padding: 2.7rem 0;
+  gap: 3rem;
+}
+
+.main-header-line {
+  display: flex;
+  /* transform: rotate(90deg); */
+  border: 1px solid #f2f2f2;
+}
+
+.main-header-office {
+  display: flex;
+}
+
+.main-header-icon {
+  display: block;
+  width: 2.5rem;
+  height: 2.5rem;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.main-header-office {
+  align-items: center;
+  gap: 1.3rem;
+  justify-content: end;
+}
+
+.main-header-office-text {
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  text-transform: uppercase;
+}
+
+.main-header-our-office {
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+}
+
+/* ===============MAIN NAV=============== */
+.main-nav {
+  display: flex;
+}
+
+.main-nav-list {
+  gap: 3rem;
+  display: flex;
+  align-items: center;
+}
+
+/* ===============FIRST SECTION=============== */
+
+.hero-section {
+  position: relative;
+  text-align: center;
+}
+
+.hero-section img {
+  display: block;
+}
+
+.heading-primary {
+  font-weight: 700;
+  font-size: 6.4rem;
+  line-height: 7.5rem;
+  padding: 4.5rem 7.1rem 0 7.1rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.hero-container {
+  border: 1px solid #c8a35f;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero-description {
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  text-align: center;
+  padding: 4.5rem 7.1rem;
+}
+
+/* ===============SECOND SECTION=============== */
+
+.trucks-section {
+  background-color: #393f47;
+  /* height: 561px; */
+}
+
+.trucks-section-container {
+  display: grid;
+  grid-template-columns: 1fr 41rem 1fr;
+}
+
+.trucks-section-line-icon {
+  margin: 12rem 0 4rem;
+}
+
+.heading-secondary {
+  position: relative;
+  z-index: 2;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 4.9rem;
+  text-transform: uppercase;
+  margin: 0 -9.5rem 3rem 0;
+}
+
+.trucks-section-text {
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+}
+
+.trucks-section-button {
+  background-color: #c8a35f;
+  text-transform: uppercase;
+  margin-top: 5rem;
+  margin-bottom: 11rem;
+  padding: 1.8rem 4.8rem;
+}
+
+/* Second secontion with img */
+
+.trucks-section-second-block {
+  display: flex;
+  background-color: #2f343a;
+  align-items: center;
+  position: relative;
+}
+
+.trucks-section-truck-img {
+  position: absolute;
+  right: -16rem;
+}
+
+/* Second section third block change truck */
+.trucks-section-change-truck {
+  /* display: flex;
+  flex-direction: column;
+  flex: 1 1; */
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  margin-left: 19rem;
+  text-align: center;
+  align-items: center;
+}
+
+.trucks-section-next {
+  display: flex;
+  gap: 3rem;
+}
+
+.trucks-section-change-truck-text {
+  /* margin-right: 3rem; */
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #c8a35f;
+}
+
+.trucks-section-change-truck-arrows:hover path,
+.trucks-section-change-truck-arrows:active path,
+.trucks-section-change-truck-arrows:hover,
+.trucks-section-change-truck-arrows:active {
+  fill: #fff;
+  cursor: pointer;
+}
